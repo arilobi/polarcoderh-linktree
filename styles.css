@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E3E1D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #E3E1D9;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(33, 18, 33, 0.1);
+    width: 380px;
+    padding: 20px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Doto;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: Kodchasan;
+}
+
+.links a {
+    display: block;
+    background-color: #E3E1D9;
+    color: black;
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 16px;
+    font-family: Kodchasan;
+    transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #B4B4B8;
+    transform: scale(1.06);
+}
+
+.name p {
+    font-family: Doto;
+    color: #000000;
+}
+
+/* Responsive styling for mobile view */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .profile img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .profile h1 {
+        font-size: 20px;
+    }
+
+    .profile p {
+        font-size: 12px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+}

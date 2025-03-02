@@ -6,7 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #E3E1D9;
+    /* background-color: #E3E1D9; */
+    background-image: url(images/starBackground.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +18,7 @@ body {
 }
 
 .container {
-    background-color: #E3E1D9;
+    /* background-color: #E3E1D9; */
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(33, 18, 33, 0.1);
     width: 380px;
@@ -24,6 +28,8 @@ body {
     padding-left: 70px;
     padding-right: 70px;
     text-align: center;
+    border-style: solid;
+    border-color: white;
 }
 
 .profile img {
@@ -38,27 +44,29 @@ body {
     font-size: 25px;
     margin-bottom: 10px;
     font-family: Doto;
+    color: white;
 }
 
 .profile p {
     font-size: 14px;
-    color: #000000;
+    color: white;
     margin-bottom: 20px;
     font-family: Kodchasan;
+    
 }
 
 .links a {
     display: block;
-    background-color: #E3E1D9;
-    color: black;
+    /* background-color: #E3E1D9; */
+    color: white;
     text-decoration: none;
     padding: 20px 0;
     margin: 10px 0;
-    border-radius: 5px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-radius: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
     font-size: 16px;
     font-family: Kodchasan;
     transition: background-color 0.3s ease;

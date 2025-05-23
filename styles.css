@@ -5,12 +5,11 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     /* background-color: #E3E1D9; */
-    background-image: url(images/starBackground.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #0E0E0E;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-position: center; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +28,7 @@ body {
     padding-right: 70px;
     text-align: center;
     border-style: solid;
-    border-color: white;
+    border-color: #975F8F;
 }
 
 .profile img {
@@ -43,7 +42,8 @@ body {
 .profile h1 {
     font-size: 25px;
     margin-bottom: 10px;
-    font-family: Doto;
+    font-family: 'Jacquard 12';
+    font-weight: 300;
     color: white;
 }
 
@@ -51,7 +51,7 @@ body {
     font-size: 14px;
     color: white;
     margin-bottom: 20px;
-    font-family: Kodchasan;
+    font-family: 'Jacques Francois';
     
 }
 
@@ -62,24 +62,26 @@ body {
     text-decoration: none;
     padding: 20px 0;
     margin: 10px 0;
-    border-radius: 50px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    font-size: 16px;
-    font-family: Kodchasan;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top: 3px solid #975F8F;
+    border-bottom: 3px solid #975F8F;
+    border-left: 1px solid #975F8F;
+    border-right: 1px solid #975F8F;
+    font-size: 20px;
+    font-family: 'Jacquard 12';
     transition: background-color 0.3s ease;
 }
 
 .links a:hover {
-    background-color: #B4B4B8;
+    background-color: #975F8F;
     transform: scale(1.06);
+    border: 3px solid white;
 }
 
 .name p {
-    font-family: Doto;
-    color: #000000;
+    font-family: 'Jacques Francois';
+    color: #BABABA;
 }
 
 /* Responsive styling for mobile view */
